@@ -16,7 +16,7 @@ float OmegaB = 0.5;
 if( ( (x-OmegaA)*(x-OmegaA) + (y-OmegaB)*(y-OmegaB) ) < 0.05)
 r = 1.0;
 else 
-g = 0.5;
+g = 1;
 
 color = vec4(r,g,b,0.0);
 }
