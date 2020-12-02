@@ -19,4 +19,5 @@ else
 g = 1;
 
 color = vec4(r,g,b,0.0);
+
 }
