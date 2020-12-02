@@ -80,12 +80,12 @@ static void init()
 static void display_callback()
 {
   //effacement des couleurs du fond d'ecran
-  glClearColor(0.5f, 0.6f, 0.9f, 1.0f); CHECK_GL_ERROR();
+  glClearColor(0.9f, 0.1f, 0.1f, 1.0f); CHECK_GL_ERROR();
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); CHECK_GL_ERROR();
 
   float translation_x=0.0f;
   float translation_y=0.0f;
-  float translation_z=0.0f;
+  float translation_z=0.9f;
 
   GLint loc_translation = glGetUniformLocation(shader_program_id, "translation"); CHECK_GL_ERROR();
   if (loc_translation == -1) std::cerr << "Pas de variable uniforme : translation" << std::endl;
