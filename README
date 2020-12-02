@@ -1,0 +1,10 @@
+TP original par Damien Rohmer et David Odin, mis à jour par Thibault Dupont
+  https://imagecomputing.net/damien.rohmer/teaching/2015_2016/semestre_1/4eti_tsi/index.html
+Image à usage libre : https://www.pexels.com/photo/boston-terrier-wearing-unicorn-pet-costume-1564506/
+
+-------------------------------------------------------------------------------------------------------
+Utilisation avec :
+  - Windows : changer le projet de démarrage (en visuel)
+  - Linux/macOS : Depuis le dossier contenant le CMakeLists.txt, compiler le programme souhaiter puis exectuer le programme sans changer de répertoire
+      make -C build programme_n && ./build/programme_n             ( avec n le numero du programme souhaité )
+
